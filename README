@@ -1,0 +1,27 @@
+Name : Shaili_Trivedi
+Email id : Shaili_Trivedi@student.uml.edu
+Student ID : 02008856
+
+Course : Data Mining 
+
+Submission : Data Mining Final Project
+
+Abstract : We have been asked to create a simple neural network model to predict whether a particular mushroom that we have is poisonous or edible using agaricus-lepiota.data.The data given has in total 23 feature through which we can identify if the mushroom is edible or not.
+
+Implementaions done by me : 
+
+1.) formulas.py : For this particular we needed to put down the formulas requires for 4 different function. Hence changes are made accordingly. Also added comments where required.
+
+2.) data_con.py : For this file, the given data is read and for all of the missing values 0 is substituted, also the data has been converted into binary code. This will create 3 different files, those are  training.txt, validation.txt and testing.txt. The data is splitted into 60%(training data),20%(validation data) and 20%(testing data). Also printed msg if files were created successfully.
+
+3.) models.py : eval() and backprop() are implement. Also close() method is created for the files to be closed once the data is saved/entered.
+
+For eval(), the input is taken and ouput is computed for all of the layer nodes. To do so the input is multiplied with weight and threshold.
+
+And for backprop(), this method is used to update the weight of the node as per requirement. For the very first layer we multiply the learning rate with the partial differentiation of the total error with respect to the weights obtained. By doing so , change in weight is calculated and implemented to the nodes.
+
+4.) proj_test.py :  Required implementation for training, validation and testing parts is done.
+
+
+Note : There are 2 diffrent files extension(.ipynb and .py) with same filename of python code.
+
